@@ -21,6 +21,6 @@ build:
     # http://devcenter.wercker.com/docs/steps/index.html
     steps:
     - arjen/hugo-build:
-        version: "1.8.1"
+        version: "0.14"
         theme: casper
         flags: --buildDrafts=true
