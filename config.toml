@@ -1,4 +1,3 @@
-baseurl = "localhost:1313/"
 languageCode = "en-us"
 title = "HIPAA Compliance Documents"
 SectionPagesMenu = "main"
