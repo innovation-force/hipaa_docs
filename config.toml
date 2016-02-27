@@ -19,5 +19,12 @@ canonifyurls = true
   [[menu.main]]
     name = "Administrative Safeguards"
     weight = 1
-    identifier = "Administrative Safeguards"
     url = "/administrative_safeguards/"
+  [[menu.main]]
+    name = "Physical Safeguards"
+    weight = 2
+    url = "/physical_safeguards/"
+  [[menu.main]]
+    name = "Organizational Requirements"
+    weight = 3
+    url = "/organizational_requirements/"
