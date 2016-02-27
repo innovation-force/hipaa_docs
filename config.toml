@@ -1,3 +1,4 @@
+baseurl = "http://innovation-force.github.io/hipaa_docs/"
 languageCode = "en-us"
 title = "HIPAA Compliance Documents"
 SectionPagesMenu = "main"
