@@ -24,12 +24,7 @@
     </nav>
     <div class="vertical">
         <div class="main-header-content inner">
-            <h1 class="page-title">{{.Title}}</h1>
-            <h2 class="page-description">
-                {{if .Params.description}}
-                    {{.Params.description}}
-                {{end}}
-            </h2>
+            <h6 class="page-title">{{.Title}}</h6>
         </div>
     </div>
 </header>
@@ -42,7 +37,7 @@
 	</div>
 
 	{{ range $index, $page := $paginator.Pages }}
-	   {{ partial "li.html" . }}
+	   {{ partial "policy_li.html" . }}
 	{{ end }}
 
 	{{ partial "pagination.html" $paginator }}

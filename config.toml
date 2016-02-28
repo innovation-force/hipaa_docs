@@ -4,6 +4,7 @@ title = "HIPAA Compliance Documents"
 SectionPagesMenu = "main"
 Copyright = "All rights reserved - 2016"
 canonifyurls = true
+paginate = 50
 
 [params]
    hideHUGOSupport = true
