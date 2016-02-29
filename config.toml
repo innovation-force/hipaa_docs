@@ -9,6 +9,8 @@ paginate = 50
 
 [params]
    hideHUGOSupport = true
+   cover = "images/photo.jpg"
+   githubName = "innovation-force"
 
 [menu]
   # Shown in the side menu.
@@ -30,3 +32,15 @@ paginate = 50
     name = "Organizational Requirements"
     weight = 3
     url = "/organizational_requirements/"
+  [[menu.main]]
+    name = "Policies and Procedure Requirements"
+    weight = 4
+    url = "/policies_and_procedure_requirements/"
+  [[menu.main]]
+    name = "Hitech Act and Omnibus Rule"
+    weight = 5
+    url = "/hitech_and_omnibus_rule/"
+  [[menu.main]]
+    name = "About"
+    weight = 6
+    url = "/about/"

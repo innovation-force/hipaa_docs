@@ -11,7 +11,7 @@ noauthor=true
 
 This one is pretty straight forward - *physical measures, policies, and procedures to protect a covered entityâ€™s electronic information systems and related buildings and equipment, from natural and environmental hazards, and unauthorized intrusion.* Data center security is typically easier to address than office security, though at Innovation Force we address both.
 
-##Facility Access Controls - 164.310(a)(1)
+## Facility Access Controls - 164.310(a)(1)
 
 Standard | Description
 --------- | -----------
@@ -29,7 +29,7 @@ Innovation Force headquarters also has any written policies and procedures for s
 The Innovation Force environment is entirely hosted and built on hardware components provided by Rackspace, AWS and Azure which Innovation Force would never have access into.
 ```
 
-##Workstation Use - 164.310(b)
+## Workstation Use - 164.310(b)
 
 Standard | Description
 --------- | -----------
@@ -40,7 +40,7 @@ Innovation Force, Inc. has policies in place that define the acceptable uses in 
 ```
 
 
-##Workstation Security - 164.310c
+## Workstation Security - 164.310c
 
 Standard | Description
 --------- | -----------
@@ -52,7 +52,7 @@ Innovation Force has a formal Workstation and Portable Media Security Policy tha
 ```
 
 
-##Device and Media Controls - 164.310(d)(1)
+## Device and Media Controls - 164.310(d)(1)
 
 Standard | Description
 --------- | -----------
@@ -69,11 +69,11 @@ Innovation Force has Media re-use requirements for the workstations, despite the
 ```
 
 
-##Technical Safeguards (see <a href="http://www.hhs.gov/ocr/privacy/hipaa/administrative/securityrule/techsafeguards.pdf">164.312</a>)
+## Technical Safeguards (see <a href="http://www.hhs.gov/ocr/privacy/hipaa/administrative/securityrule/techsafeguards.pdf">164.312</a>)
 
 This section of HIPAA outlines *the technology and the policy and procedures for its use that protect electronic protected health information and control access to it.* It is important to note that these requirements are not prescriptive, and there is flexibility in implementation. The key is that measures that are reasonable and appropriate are implemented to safeguard ePHI.
 
-##Access Control - 164.312(a)(1)
+## Access Control - 164.312(a)(1)
 
 Standard | Description
 --------- | -----------
@@ -93,7 +93,7 @@ Innovation Force systems settings on all of its servers have session timeout fea
 Innovation Force encrypts all stored data in its environment using 256-bit AES encryption. Additionally, all data in transit is encrypted end to end (more below).
 ```
 
-##Audit Controls - 164.312(b)
+## Audit Controls - 164.312(b)
 
 Standard | Description
 --------- | -----------
@@ -104,7 +104,7 @@ Audit Controls (Req) | Implement hardware, software, and/or procedural mechanism
 Innovation Force, Inc. has policies in place addressing audit trail requirements. Systems within the its environment are logging to a centralized logging solution, Logstash, which is monitoring system level events and contains user id, timestamp, event, origination, and type of event. These logs are constantly monitored for suspicious events and alerts are generated to any type of behavior that is suspicious.
 ```
 
-##Integrity - 164.312c(1)
+## Integrity - 164.312c(1)
 
 Standard | Description
 --------- | -----------
@@ -115,7 +115,7 @@ Mechanism to Authenticate Electronic Protected (A) | Implement electronic mechan
 Innovation Force has employed a centralized access control system for authenticating and accessing internal systems where ePHI resides. Currently, Innovation Force employees access a bastion host using an SSH-2 connection to access internal systems. Accounts on the internal database are restricted to a limited number of personnel, with logging in place to track all transactions.
 ```
 
-##Person or Entity Authentication - 164.312(d)
+## Person or Entity Authentication - 164.312(d)
 
 Standard | Description
 --------- | -----------
@@ -126,7 +126,7 @@ Person or Entity Authentication (Req) | Implement procedures to verify that a pe
 Innovation Force, Inc. has a formal policy that describes the process of verifying a person's identity before unlocking their account, resetting their password, and/or providing access to ePHI.
 ```
 
-##Transmission Security - 164.312(e)(1)
+## Transmission Security - 164.312(e)(1)
 
 Standard | Description
 --------- | -----------

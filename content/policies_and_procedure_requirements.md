@@ -5,7 +5,7 @@ title = "Policies and Procedure Requirements"
 +++
 (see <a href="http://www.hhs.gov/ocr/privacy/hipaa/administrative/securityrule/pprequirements.pdf">164.316</a>)
 
-##Policies and Procedures - 164.316(a)
+## Policies and Procedures - 164.316(a)
 
 Standard | Description
 --------- | -----------
@@ -16,7 +16,7 @@ Policies and Procedures (Req) | Implement reasonable and appropriate policies an
 Innovation Force has a formalized Policy Management program that ensures that policies are developed, implemented, and updated according to best practice and organization requirements. In the words of our auditors, this is a policy about our policies.
 ```
 
-##Documentation - 164.316(b)(1)(i)
+## Documentation - 164.316(b)(1)(i)
 
 Standard | Description
 --------- | -----------
