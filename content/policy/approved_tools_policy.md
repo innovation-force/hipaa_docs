@@ -14,3 +14,7 @@ Innovation Force utilizes a suite of approved software tools for internal use by
 * **Gitlab**. Gitlab is an open source tool built on top of Git, the version control platform. Gitlab is hosted and secured by Innovation Force. It is utilized for storage of configuration scripts and other infrastructure automation tools, as well as for source and version control of application code used by Innovation Force.
 
 * **Box**. Box is used for storage of files and sharing of files with Partners and Customers.
+
+* **Slack**. Slack is used as an internal communication platform for the development and business teams.
+
+* **Jira**. Jira is used by Innovation Force to track development tasks.
