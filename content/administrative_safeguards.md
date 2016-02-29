@@ -2,9 +2,9 @@
 date = "2016-02-26T21:09:22-08:00"
 draft = true
 title = "Administrative Safeguards (164.308)"
-comments=false
-share=false
-noauthor=true
+comments = true
+share = false
+noauthor = true
 +++
 
 Taken directly from the wording of the Security Rule, administrative safeguards are *administrative actions, and policies and procedures, to manage the selection, development, implementation, and maintenance of security measures to protect electronic protected health information and to manage the conduct of the covered entity's workforce in relation to the protection of that information.*

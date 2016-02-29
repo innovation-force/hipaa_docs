@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "HIPAA Compliance Documents"
 SectionPagesMenu = "main"
 Copyright = "All rights reserved - 2016"
+DisqusShortname = "hipaaguidelines"
 canonifyurls = true
 paginate = 50
 
