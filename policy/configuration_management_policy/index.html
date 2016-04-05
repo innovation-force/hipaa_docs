@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  	<meta property="og:title" content=" Configuration Management Policy &middot;  HIPAA Compliance Docs for Innovation Force" />
+  	<meta property="og:site_name" content="HIPAA Compliance Docs for Innovation Force" />
+  	<meta property="og:url" content="http://innovation-force.github.io/hipaa_docs/policy/configuration_management_policy/" />
+
+    
+  	<meta property="og:type" content="article" />
+
+    <meta property="og:article:published_time" content="2016-02-28T08:10:41-08:00" />
+
+    
+    
+
+  <title>
+     Configuration Management Policy &middot;  HIPAA Compliance Docs for Innovation Force
+  </title>
+
+    <meta name="description" content="" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="http://innovation-force.github.io/hipaa_docs/images/favicon.ico">
+	  <link rel="apple-touch-icon" href="http://innovation-force.github.io/hipaa_docs/images/apple-touch-icon.png" />
+
+    <link rel="stylesheet" type="text/css" href="http://innovation-force.github.io/hipaa_docs/css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="http://innovation-force.github.io/hipaa_docs/css/nav.css" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400|Inconsolata" />
+
+
+    
+      
+          <link href="http://innovation-force.github.io/hipaa_docs/index.xml" rel="alternate" type="application/rss+xml" title="HIPAA Compliance Docs for Innovation Force" />
+      
+      
+    
+    <meta name="generator" content="Hugo 0.14" />
+
+    <link rel="canonical" href="http://innovation-force.github.io/hipaa_docs/policy/configuration_management_policy/" />
+
+    
+
+    
+</head>
+<body class="nav-closed">
+
+  <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+        
+        
+        
+            <i class='fa fa-home fa-fw'></i>
+            <li class="nav-opened" role="presentation">
+            	<a href="http://innovation-force.github.io/hipaa_docs/">Home</a>
+            </li>
+        
+            
+            <li class="nav-opened nav-current" role="presentation">
+            	<a href="http://innovation-force.github.io/hipaa_docs/policy/">policy</a>
+            </li>
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="http://innovation-force.github.io/hipaa_docs/administrative_safeguards/">Administrative Safeguards</a>
+            </li>
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="http://innovation-force.github.io/hipaa_docs/physical_safeguards/">Physical Safeguards</a>
+            </li>
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="http://innovation-force.github.io/hipaa_docs/organizational_requirements/">Organizational Requirements</a>
+            </li>
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="http://innovation-force.github.io/hipaa_docs/policies_and_procedure_requirements/">Policies and Procedure Requirements</a>
+            </li>
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="http://innovation-force.github.io/hipaa_docs/hitech_act_and_omnibus_rule/">Hitech Act and Omnibus Rule</a>
+            </li>
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="http://innovation-force.github.io/hipaa_docs/about/">About</a>
+            </li>
+        
+    </ul>
+    
+    
+    <a class="subscribe-button icon-feed" href="http://innovation-force.github.io/hipaa_docs/index.xml">Subscribe</a>
+    
+</div>
+<span class="nav-cover"></span>
+
+
+ <div class="site-wrapper">
+
+
+
+
+
+<header class="main-header post-head no-cover">
+    <nav class="main-nav overlay clearfix">
+
+
+      
+      
+          <a class="menu-button" href="#"><span class="burger">&#9776;</span><span class="word">Menu</span></a>
+      
+    </nav>
+
+    
+
+
+</header>
+
+
+
+<main class="content" role="main">
+
+
+
+
+  <article class="post policy">
+    <header class="post-header">
+      <nav class="breadcrumb">
+        
+        
+        
+        
+        
+        <li><a href="http://innovation-force.github.io/hipaa_docs/policy/">policy</a></li>
+              
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      </nav>
+
+
+        <h1 class="post-title">Configuration Management Policy</h1>
+        <small></small>
+
+        <section class="post-meta">
+        
+         
+        </section>
+    </header>
+
+    <section class="post-content">
+
+
+
+
+<p>Innovation Force standardizes and automates configuration management through the use of Salt scripts as well as documentation of all changes to production systems and networks. Salt automatically configures all Innovation Force systems according to established and tested policies, and is used as part of our Disaster Recovery plan and process.</p>
+
+<h2 id="applicable-standards-from-the-hitrust-common-security-framework:94dda820a29b93e64b8fba34c1e53aa4">Applicable Standards from the HITRUST Common Security Framework</h2>
+
+<ul>
+<li>06 - Configuration Management</li>
+</ul>
+
+<h2 id="applicable-standards-from-the-hipaa-security-rule:94dda820a29b93e64b8fba34c1e53aa4">Applicable Standards from the HIPAA Security Rule</h2>
+
+<ul>
+<li>164.310(a)(2)(iii) Access Control &amp; Validation Procedures</li>
+</ul>
+
+<h2 id="configuration-management:94dda820a29b93e64b8fba34c1e53aa4">Configuration Management</h2>
+
+<ol>
+<li>Salt is used to standardize and automate configuration management.</li>
+<li>OSSEC is used to scan systems every 2 hours and on reboot. These scans capture file system changes and also unauthorized or malicious software.</li>
+<li>No systems are deployed into Innovation Force environments without approval of the Innovation Force CTO.</li>
+<li>All changes to production systems, network devices, and firewalls are approved by the Innovation Force CTO before they are implemented to assure they comply with business and security requirements. Additionally, all changes are tested before they are implemented in production. All changes are documented using Google forms. Implementation of approved changes are only performed by authorized personnel.</li>
+<li>An up-to-date inventory of systems is maintained using Google spreadsheets and architecture diagrams hosted on Google Apps and Box. All systems are categorized as production and utility to differentiate based on criticality.</li>
+<li>Clocks are synchronized across all systems using NTP. Modifying time data on systems is restricted.</li>
+<li>All front end functionality (developer dashboards and portals) is separated from backend (database and app servers) systems by being deployed on separate servers.</li>
+<li>All software and systems are tested using unit tests and end to end tests.</li>
+<li>All committed code is reviewed using pull requests (on Github) to assure software code quality and proactively detect potential security issues in development.</li>
+<li>Innovation Force utilizes development and staging environments that mirror production to assure proper function.</li>
+<li>Innovation Force also deploys environments locally using Vagrant to assure functionality before moving to staging or production.</li>
+<li>Innovation Force schedules production deployments every four weeks.</li>
+<li>All formal change requests require unique ID and authentication.</li>
+<li>ClamAV is run on all production hosts for anti-virus protection. Hosts are scanned daily for malicious binaries in critical system paths. The malware signature database is checked hourly and automatically updated if new signatures are available. ClamAV is a part of our Salt-based configuration management and this assures all hosts have anti-virus tools running on them.</li>
+<li>All physical media is encrypted at provisioning. To verify encryption is consistent and in place for all production storage, checks are performed on a quarterly basis.</li>
+</ol>
+
+
+
+
+
+
+
+
+
+    </section>
+
+
+  <footer class="post-footer">
+
+
+    
+
+    
+
+
+    
+
+
+    
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+  var disqus_shortname = 'hipaaguidelines';
+  var disqus_url = 'http:\/\/innovation-force.github.io\/hipaa_docs\/policy\/configuration_management_policy\/';
+  (function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+
+  </footer>
+</article>
+
+</main>
+    <footer class="site-footer clearfix">
+        <section class="copyright"><a href="">HIPAA Compliance Docs for Innovation Force</a> All rights reserved - 2016</section>
+        
+    </footer>
+    </div>
+    <script type="text/javascript" src="http://innovation-force.github.io/hipaa_docs/js/jquery.js"></script>
+    <script type="text/javascript" src="http://innovation-force.github.io/hipaa_docs/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="http://innovation-force.github.io/hipaa_docs/js/index.js"></script>
+    
+</body>
+</html>
+
