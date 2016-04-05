@@ -30,7 +30,7 @@ The Privacy Officer is responsible for assisting with compliance and security tr
 3. Manage relationships with customers and partners as those relationships affect security and compliance of ePHI.
 4. Assist Security Officer as needed.
 
-The current Innovation Force Privacy Officer is Travis Good ([travis@Innovation Force.io](mailto:travis@Innovation Force.io)).
+The current Innovation Force Privacy Officer is Alex Thorpe ([alexander.thorpe@cambiahealth.com](mailto:alexander.thorpe@cambiahealth.com)).
 
 ## Workforce Training Responsibilities
 
