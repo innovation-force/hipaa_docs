@@ -39,7 +39,7 @@ paginate = 50
   [[menu.main]]
     name = "Hitech Act and Omnibus Rule"
     weight = 5
-    url = "/hitech_and_omnibus_rule/"
+    url = "/hitech_act_and_omnibus_rule/"
   [[menu.main]]
     name = "About"
     weight = 6
